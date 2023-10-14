@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { Decrement, Increment, decrementWitchCheckingAction } from '../../app/features/counter/action';
+import { Increment, decrementWitchCheckingAction } from '../../app/features/counter/action';
 
 export const CounterRedux = () => {
   let { count } = useSelector((state) => state.counter);
