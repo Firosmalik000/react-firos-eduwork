@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 // jika lebih dari 1 tetap menggunakan return
 const FunctionalComponent = ({ nama }) => {
+  // nilai default, setValue updaternya(untuk mengupdate nilai statenya) karena useState mengembalikan default dan updater,parameternya harus berupa nilai
   const [value, setValue] = useState(0);
 
   const handleMin = () => {

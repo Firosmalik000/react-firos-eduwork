@@ -2,7 +2,7 @@ import React from 'react';
 import Counter from '../counter/counter';
 import styled from 'styled-components';
 
-const imgProduct = `https://unsplash.com/photos/G8_JBLFMWTg`;
+const imgProduct = ``;
 
 const CardContainer = styled.div`
   max-width: 300px;
